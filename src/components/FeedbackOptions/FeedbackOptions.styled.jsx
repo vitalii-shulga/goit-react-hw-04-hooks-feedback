@@ -14,8 +14,29 @@ export const Button = styled.button`
 
   :hover,
   :focus {
-    background-color: teal;
+    /* background-color: teal; */
     color: white;
     transition: all 0.2s;
+  }
+
+  &:nth-child(2) {
+    :hover,
+    :focus {
+      background-color: #008450;
+    }
+  }
+
+  &:nth-child(3) {
+    :hover,
+    :focus {
+      background-color: #efb700;
+    }
+  }
+
+  &:nth-child(4) {
+    :hover,
+    :focus {
+      background-color: #b81d13;
+    }
   }
 `;
